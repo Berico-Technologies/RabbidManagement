@@ -7,11 +7,11 @@ package rabbitmq.mgmt.model;
  */
 public class MessageDetails {
 	
-	protected int rate;
+	protected double rate;
 	protected long interval;
 	protected long last_event;
 	
-	public int getRate() {
+	public double getRate() {
 		return rate;
 	}
 	
